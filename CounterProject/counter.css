@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../CounterProject/wood.jpeg") center/cover fixed no-repeat;
+}
+
+.container {
+  margin: 110px 420px;
+}
+
+.heading {
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+  border: 1.5px solid #f5f5f5;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 330px;
+}
+.top {
+  margin: 20px;
+  font-family: 'Pacifico', cursive;
+  color: blue;
+}
+#number {
+  margin: 10px;
+  font-size: 80px;
+  color: aqua;
+  font-family: 'Bebas Neue', cursive;
+}
+.btn-counter {
+  margin: 20px 20px;
+  padding: 5px 5px;
+}
+#lower {
+  margin: 5px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+  font-family: 'Bungee Spice', cursive;
+}
+
+#lower:hover{
+    color: antiquewhite;
+    background-color: grey;
+    height: 34px;
+    width: 100px;
+    border-radius: 6px;
+    border: 2px solid purple;
+}
+
+#add {
+  margin: 10px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+  font-family: 'Bungee Spice', cursive;
+}
+
+#add:hover{
+    color: antiquewhite;
+    background-color: grey;
+    height: 34px;
+    width: 90px;
+    border-radius: 6px;
+    border: 2px solid purple;
+}
